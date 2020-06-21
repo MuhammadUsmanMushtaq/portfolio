@@ -7,7 +7,6 @@ import "./App.css";
 
 const Wrapper = styled.section`
   padding: 16px;
-  background: papayawhip;
 `;
 
 function App() {

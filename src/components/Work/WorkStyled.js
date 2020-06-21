@@ -8,25 +8,27 @@ export const WorkWrapper = styled.div`
 `;
 
 export const Project = styled.div`
-  background: #d9f6f1;
-  width: 520px;
+  background: #b7fcf04f;
+  width: 460px;
   height: 600px;
   margin: 20px;
   border-radius: 10px;
-  text-align: center;
+  padding: 24px;
 `;
 export const Project2 = styled(Project)`
-  background: #f4a690;
+  background: #f4a69036;
 `;
 export const Project3 = styled(Project)`
   background: #ddeefe;
 `;
 export const Project4 = styled(Project)`
-  background: #e5de6f;
+  background: #e5de6f4f;
 `;
 export const Project5 = styled(Project)`
-  background: #ed9efa;
-  width: 1080px;
+  background: #a571ae24;
+`;
+export const Project6 = styled(Project)`
+  background: #d7cec636;
 `;
 
 export const Button = styled.button`
@@ -38,4 +40,18 @@ width:120px;
 `;
 export const DemoButton = styled(Button)`
   background: #fff;
+`;
+
+export const Description = styled.div`
+  font-size: 18px;
+  padding-bottom: 16px;
+`;
+
+export const ProjectImg = styled.div`
+  & img {
+    width: 100%;
+    height: 100%;
+
+    padding-bottom: 16px;
+  }
 `;
