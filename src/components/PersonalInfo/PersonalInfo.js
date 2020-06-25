@@ -1,16 +1,22 @@
 import React from "react";
-import { PersonalInfoWrapper, Info, Image } from "./PersonalInfoStyled";
+import { PersonalInfoWrapper, Title, Image, Link } from "./PersonalInfoStyled";
 
 function PersonalInfo() {
   return (
     <PersonalInfoWrapper>
-      <Info>
-        I'm Muhammad Usman, front end developer and student at KYH Stockholm. I
-        love to design and build inclusive and usable digital products.
-      </Info>
       <Image>
-        <img src="/images/profile_img.png" alt="Image" />
+        <img src="/images/profile_rnd.png" alt="Image" />
       </Image>
+      <Title>MUHAMMAD USMAN</Title>
+      <Link href="https://linkedin.com" target="_blank">
+        LinkedIn
+      </Link>
+      <Link href="https://github.com/MuhammadUsmanMushtaq" target="_blank">
+        GitHub
+      </Link>
+      <Link href="mailto: usman820901@gmail.com" target="_blank">
+        Email
+      </Link>
     </PersonalInfoWrapper>
   );
 }

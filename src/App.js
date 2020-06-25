@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import Navbar from "./components/Navbar/Navbar";
 import PersonalInfo from "./components/PersonalInfo/PersonalInfo";
 import Work from "./components/Work/Work";
+import Contact from "./components/Contact/Contact";
 import "./App.css";
 
 const Wrapper = styled.section`
@@ -12,9 +12,9 @@ const Wrapper = styled.section`
 function App() {
   return (
     <Wrapper>
-      <Navbar />
       <PersonalInfo />
       <Work />
+      <Contact />
     </Wrapper>
   );
 }

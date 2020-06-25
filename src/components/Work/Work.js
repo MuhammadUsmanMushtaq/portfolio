@@ -2,15 +2,10 @@ import React from "react";
 import {
   WorkWrapper,
   Project,
-  Project2,
-  Project3,
-  Project4,
-  Project5,
-  Project6,
   Description,
   ProjectImg,
   Button,
-  DemoButton,
+  ProjectTitle,
 } from "./WorkStyled";
 
 function Work() {
@@ -18,79 +13,94 @@ function Work() {
     <WorkWrapper>
       <Project>
         <Description>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non
-          ante id dui pretium tempus ac et elit. Morbi scelerisque lobortis
-          sagittis. Curabitur lobortis placerat est, ut placerat metus
-          scelerisque sed. Mauris sodales pellentesque ultricies. Praesent eu
-          commodo augue. Mauris faucibus turpis libero, quis facilisis neque
-          gravida in.
+          <ProjectTitle>KYH Course Landing Page Redesign</ProjectTitle>
+          <Button
+            href="https://github.com/MuhammadUsmanMushtaq/frontend_kyh_landing_page"
+            target="_blank"
+          >
+            Link to GitHub
+          </Button>
+          <Button
+            href="https://muhammadusmanmushtaq.github.io/frontend_kyh_landing_page/"
+            target="_blank"
+          >
+            Link to site
+          </Button>
         </Description>
         <ProjectImg>
           <img src="images/kyh_page.png" alt="Image" />
         </ProjectImg>
-        <Button>Link to Project</Button>
-        <DemoButton>Demo</DemoButton>
       </Project>
-      <Project2>
+      <Project>
         <Description>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non
-          ante id dui pretium tempus ac et elit. Morbi scelerisque lobortis
-          sagittis. Curabitur lobortis placerat est, ut placerat metus
-          scelerisque sed.
+          <ProjectTitle>Easyweb by Sphinxly</ProjectTitle>
+          <Button
+            href="https://github.com/NataliaWiman/fe19tp3_easyweb"
+            target="_blank"
+          >
+            Link to GitHub
+          </Button>
+          <Button href="https://fe19tp3-easyweb.now.sh/" target="_blank">
+            Link to app
+          </Button>
         </Description>
         <ProjectImg>
           <img src="images/tp_easyweb.png" alt="Image" />
         </ProjectImg>
-        <Button>Link to Project</Button>
-      </Project2>
-      <Project3>
+      </Project>
+      <Project>
         <Description>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non
-          ante id dui pretium tempus ac et elit. Morbi scelerisque lobortis
-          sagittis. Curabitur lobortis placerat est, ut placerat metus
-          scelerisque sed.
+          <ProjectTitle>Weather App</ProjectTitle>
+          <Button
+            href="https://github.com/MuhammadUsmanMushtaq/weatherapp"
+            target="_blank"
+          >
+            Link to GitHub
+          </Button>
         </Description>
         <ProjectImg>
           <img src="images/weather_app.png" alt="Image" />
         </ProjectImg>
-        <Button>Link to Project</Button>
-      </Project3>
-      <Project4>
+      </Project>
+      <Project>
         <Description>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non
-          ante id dui pretium tempus ac et elit. Morbi scelerisque lobortis
-          sagittis. Curabitur lobortis placerat est, ut placerat metus
-          scelerisque sed.
+          <ProjectTitle>Nutrition Fact Checker</ProjectTitle>
+          <Button href="https://github.com/AD757/fe19tp2_lemon" target="_blank">
+            Link to GitHub
+          </Button>
         </Description>
         <ProjectImg>
           <img src="images/tp_nutrition.png" alt="Image" />
         </ProjectImg>
-        <Button>Link to Project</Button>
-      </Project4>
-      <Project5>
+      </Project>
+      <Project>
         <Description>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non
-          ante id dui pretium tempus ac et elit. Morbi scelerisque lobortis
-          sagittis. Curabitur lobortis placerat est, ut placerat metus
-          scelerisque sed.
+          <ProjectTitle>Quire Note Taking App</ProjectTitle>
+          <Button
+            href="https://github.com/AD757/fe19tp1_TeamStaple"
+            target="_blank"
+          >
+            Link to GitHub
+          </Button>
         </Description>
         <ProjectImg>
           <img src="images/tp_note.png" alt="Image" />
         </ProjectImg>
-        <Button>Link to Project</Button>
-      </Project5>
-      <Project6>
+      </Project>
+      <Project>
         <Description>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non
-          ante id dui pretium tempus ac et elit. Morbi scelerisque lobortis
-          sagittis. Curabitur lobortis placerat est, ut placerat metus
-          scelerisque sed.
+          <ProjectTitle>UX Review for EU-Bikes</ProjectTitle>
+          <Button
+            href="https://www.figma.com/proto/k60XBI2Tr0mefJXT2Q60jw/EU-BIKE?node-id=1%3A2&viewport=444%2C412%2C0.5&scaling=scale-down"
+            target="_blank"
+          >
+            Link to prototype
+          </Button>
         </Description>
         <ProjectImg>
-          <img src="images/portfoliov1.png" alt="Image" />
+          <img src="images/EuBike.png" alt="Image" />
         </ProjectImg>
-        <Button>Link to Project</Button>
-      </Project6>
+      </Project>
     </WorkWrapper>
   );
 }

@@ -8,50 +8,47 @@ export const WorkWrapper = styled.div`
 `;
 
 export const Project = styled.div`
-  background: #b7fcf04f;
-  width: 460px;
-  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
   margin: 20px;
-  border-radius: 10px;
   padding: 24px;
-`;
-export const Project2 = styled(Project)`
-  background: #f4a69036;
-`;
-export const Project3 = styled(Project)`
-  background: #ddeefe;
-`;
-export const Project4 = styled(Project)`
-  background: #e5de6f4f;
-`;
-export const Project5 = styled(Project)`
-  background: #a571ae24;
-`;
-export const Project6 = styled(Project)`
-  background: #d7cec636;
+  &:hover img {
+    transform: scale(1.04, 1.04);
+  }
 `;
 
-export const Button = styled.button`
-border 1px solid black;
-padding: 8px 16px;
-background: #FFF;
-margin-right: 16px;
-width:120px;
-`;
-export const DemoButton = styled(Button)`
-  background: #fff;
+export const Button = styled.a`
+  margin-bottom: 8px;
+  display: block;
+  font-weight: 600;
+  font-size: 12px;
+  color: #000;
+  text-decoration: none;
+  &:hover {
+    color: #008bf8;
+  }
 `;
 
 export const Description = styled.div`
   font-size: 18px;
   padding-bottom: 16px;
+  width: 260px;
+  margin-right: 100px;
+`;
+export const ProjectTitle = styled.h3`
+  margin: 0;
+  margin-bottom: 16px;
+  padding: 0;
 `;
 
 export const ProjectImg = styled.div`
+  width: 500px;
+  height: 400px;
+  background: #edf5fc;
+  padding: 48px 120px;
   & img {
     width: 100%;
     height: 100%;
-
-    padding-bottom: 16px;
+    transition: all 0.25s ease-in-out;
   }
 `;
