@@ -5,7 +5,7 @@ function PersonalInfo() {
   return (
     <PersonalInfoWrapper>
       <Image>
-        <img src="/images/profile_rnd.png" alt="Image" />
+        <img src="/images/profile_rnd.png" alt="Profile" />
       </Image>
       <Title>MUHAMMAD USMAN</Title>
       <Link href="https://linkedin.com" target="_blank">

@@ -35,7 +35,7 @@ function Work() {
           </Button>
         </Content>
         <ProjectImg>
-          <img src="images/kyh_page.png" alt="Image" />
+          <img src="images/kyh_page.png" alt="KYH landing page" />
         </ProjectImg>
       </Project>
       <Project>
@@ -56,7 +56,7 @@ function Work() {
           </Button>
         </Content>
         <ProjectImg>
-          <img src="images/tp_easyweb.png" alt="Image" />
+          <img src="images/tp_easyweb.png" alt="Easyweb site" />
         </ProjectImg>
       </Project>
       <Project>
@@ -72,7 +72,7 @@ function Work() {
           </Button>
         </Content>
         <ProjectImg>
-          <img src="images/weather_app.png" alt="Image" />
+          <img src="images/weather_app.png" alt="Weather app" />
         </ProjectImg>
       </Project>
       <Project>
@@ -88,7 +88,7 @@ function Work() {
           </Button>
         </Content>
         <ProjectImg>
-          <img src="images/tp_nutrition.png" alt="Image" />
+          <img src="images/tp_nutrition.png" alt="Nutrition app" />
         </ProjectImg>
       </Project>
       <Project>
@@ -106,7 +106,7 @@ function Work() {
           </Button>
         </Content>
         <ProjectImg>
-          <img src="images/tp_note.png" alt="Image" />
+          <img src="images/tp_note.png" alt="Note app" />
         </ProjectImg>
       </Project>
       <Project>
@@ -126,7 +126,7 @@ function Work() {
           </Button>
         </Content>
         <ProjectImg>
-          <img src="images/EuBike.png" alt="Image" />
+          <img src="images/EuBike.png" alt="EU-bikes prototype" />
         </ProjectImg>
       </Project>
     </WorkWrapper>
