@@ -8,7 +8,10 @@ function PersonalInfo() {
         <img src="/images/profile_rnd.png" alt="Profile" />
       </Image>
       <Title>MUHAMMAD USMAN</Title>
-      <Link href="https://linkedin.com" target="_blank">
+      <Link
+        href="https://www.linkedin.com/in/muhammad-usman-78491149/"
+        target="_blank"
+      >
         LinkedIn
       </Link>
       <Link href="https://github.com/MuhammadUsmanMushtaq" target="_blank">

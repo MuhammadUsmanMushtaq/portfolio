@@ -25,13 +25,13 @@ function Work() {
             href="https://github.com/MuhammadUsmanMushtaq/frontend_kyh_landing_page"
             target="_blank"
           >
-            Link to GitHub
+            Link to GitHub &#10132;
           </Button>
           <Button
             href="https://muhammadusmanmushtaq.github.io/frontend_kyh_landing_page/"
             target="_blank"
           >
-            Link to site
+            Link to site &#10132;
           </Button>
         </Content>
         <ProjectImg>
@@ -49,10 +49,10 @@ function Work() {
             href="https://github.com/NataliaWiman/fe19tp3_easyweb"
             target="_blank"
           >
-            Link to GitHub
+            Link to GitHub &#10132;
           </Button>
           <Button href="https://fe19tp3-easyweb.now.sh/" target="_blank">
-            Link to app
+            Link to app &#10132;
           </Button>
         </Content>
         <ProjectImg>
@@ -68,7 +68,7 @@ function Work() {
             href="https://github.com/MuhammadUsmanMushtaq/weatherapp"
             target="_blank"
           >
-            Link to GitHub
+            Link to GitHub &#10132;
           </Button>
         </Content>
         <ProjectImg>
@@ -84,7 +84,7 @@ function Work() {
           </Description>
           <Tools>React, styled componenets, chart.js </Tools>
           <Button href="https://github.com/AD757/fe19tp2_lemon" target="_blank">
-            Link to GitHub
+            Link to GitHub &#10132;
           </Button>
         </Content>
         <ProjectImg>
@@ -102,7 +102,7 @@ function Work() {
             href="https://github.com/AD757/fe19tp1_TeamStaple"
             target="_blank"
           >
-            Link to GitHub
+            Link to GitHub &#10132;
           </Button>
         </Content>
         <ProjectImg>
@@ -122,13 +122,15 @@ function Work() {
             href="https://www.figma.com/proto/k60XBI2Tr0mefJXT2Q60jw/EU-BIKE?node-id=1%3A2&viewport=444%2C412%2C0.5&scaling=scale-down"
             target="_blank"
           >
-            Link to prototype
+            Link to prototype &#10132;
           </Button>
         </Content>
         <ProjectImg>
           <img src="images/EuBike.png" alt="EU-bikes prototype" />
         </ProjectImg>
       </Project>
+
+      <Button>More work</Button>
     </WorkWrapper>
   );
 }
