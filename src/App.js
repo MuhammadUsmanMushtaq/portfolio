@@ -7,6 +7,8 @@ import "./App.css";
 
 const Wrapper = styled.section`
   padding: 16px;
+  margin: 0 auto;
+  max-width: 1200px;
 `;
 
 function App() {

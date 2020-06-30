@@ -16,7 +16,7 @@ export const Project = styled.div`
     color: #008bf8;
   }
   @media screen and (max-width: 800px) {
-    padding: 12px 0;
+    padding: 20px 0;
   }
 `;
 
@@ -34,7 +34,7 @@ export const Content = styled.div`
   font-size: 18px;
   padding-bottom: 16px;
   width: 260px;
-  margin-right: 100px;
+  margin-right: 200px;
 
   @media screen and (max-width: 800px) {
     width: 100%;

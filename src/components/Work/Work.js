@@ -129,8 +129,6 @@ function Work() {
           <img src="images/EuBike.png" alt="EU-bikes prototype" />
         </ProjectImg>
       </Project>
-
-      <Button>More work</Button>
     </WorkWrapper>
   );
 }
