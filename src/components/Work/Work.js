@@ -46,7 +46,6 @@ function Work() {
           <Tools>HTML5, CSS, Vanilla JavaScript</Tools>
           <Button
             href="https://github.com/MuhammadUsmanMushtaq/frontend_kyh_landing_page" target="_blank"
-            target="_blank"
           >
             Link to GitHub &#10132;
           </Button>
