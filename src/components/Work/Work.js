@@ -15,6 +15,29 @@ function Work() {
     <WorkWrapper>
       <Project>
         <Content>
+          <ProjectTitle>Starwars character search</ProjectTitle>
+          <Description>
+           This project is about searching star wars characters using SWAPI API.
+          </Description>
+          <Tools>React, styled components  </Tools>
+
+          <Button
+            href="https://github.com/MuhammadUsmanMushtaq/starWars-SWAPI" target="_blank"
+          >
+            Link to GitHub &#10132;
+          </Button>
+          <Button
+            href="https://starwars-swapi-usman.netlify.app/" target="_blank"
+          >
+            Link to app &#10132;
+          </Button>
+        </Content>
+        <ProjectImg>
+          <img src="images/starwars_SWAPI.png" alt="starwars_SWAPI" />
+        </ProjectImg>
+    </Project>
+      <Project>
+        <Content>
           <ProjectTitle>KYH Course Landing Page Redesign</ProjectTitle>
           <Description>
             School project to redesign the landing page of Front-end program at
@@ -22,7 +45,7 @@ function Work() {
           </Description>
           <Tools>HTML5, CSS, Vanilla JavaScript</Tools>
           <Button
-            href="https://github.com/MuhammadUsmanMushtaq/frontend_kyh_landing_page"
+            href="https://github.com/MuhammadUsmanMushtaq/frontend_kyh_landing_page" target="_blank"
             target="_blank"
           >
             Link to GitHub &#10132;
@@ -110,6 +133,7 @@ function Work() {
         </ProjectImg>
       </Project>
       <Project>
+
         <Content>
           <ProjectTitle>UX Review for EU-Bikes</ProjectTitle>
           <Description>
@@ -129,7 +153,7 @@ function Work() {
           <img src="images/EuBike.png" alt="EU-bikes prototype" />
         </ProjectImg>
       </Project>
-    </WorkWrapper>
+   </WorkWrapper>
   );
 }
 
