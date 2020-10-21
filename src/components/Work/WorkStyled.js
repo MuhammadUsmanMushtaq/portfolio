@@ -11,8 +11,7 @@ export const WorkWrapper = styled.div`
 `;
 
 export const Project = styled.div`
-  // display: flex;
-  // flex-wrap: wrap;
+
   width:400px;
   margin: 32px;
   background: #edf5fc;
