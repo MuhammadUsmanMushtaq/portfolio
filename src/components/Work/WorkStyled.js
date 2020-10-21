@@ -2,21 +2,32 @@ import styled from "styled-components";
 
 export const WorkWrapper = styled.div`
   padding: 16px 0;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+   @media screen and (max-width: 768px) {
+    padding: 8px;
+  }
 `;
 
 export const Project = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  margin: 20px 0;
-  padding: 24px 0;
+  // display: flex;
+  // flex-wrap: wrap;
+  width:400px;
+  margin: 32px;
+  background: #edf5fc;
+  padding: 24px;
+  border-radius: 16px;
   &:hover img {
     transform: scale(1.04, 1.04);
   }
   &:hover a {
     color: #008bf8;
   }
-  @media screen and (max-width: 800px) {
-    padding: 20px 0;
+  @media screen and (max-width: 768px) {
+    padding:16px;
+    width:100%;
+    margin:16px 0;
   }
 `;
 
@@ -32,9 +43,7 @@ export const Button = styled.a`
 
 export const Content = styled.div`
   font-size: 18px;
-  padding-bottom: 16px;
-  width: 260px;
-  margin-right: 200px;
+  padding: 16px 0;
 
   @media screen and (max-width: 800px) {
     width: 100%;
@@ -48,11 +57,8 @@ export const ProjectTitle = styled.h3`
 `;
 
 export const ProjectImg = styled.div`
-  width: 500px;
-  height: 400px;
-  background: #edf5fc;
   border-radius: 6px;
-  padding: 48px 120px;
+  // padding: 48px 120px;
   & img {
     width: 100%;
     height: 100%;
@@ -61,7 +67,6 @@ export const ProjectImg = styled.div`
   }
   @media screen and (max-width: 800px) {
     width: 100%;
-    height: 300px;
     margin: 0;
     padding: 0;
   }

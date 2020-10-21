@@ -14,6 +14,9 @@ function Work() {
   return (
     <WorkWrapper>
       <Project>
+        <ProjectImg>
+          <img src="images/starwars_swapi2.png" alt="starwars_SWAPI" />
+        </ProjectImg>
         <Content>
           <ProjectTitle>Starwars character search</ProjectTitle>
           <Description>
@@ -32,11 +35,11 @@ function Work() {
             Link to app &#10132;
           </Button>
         </Content>
-        <ProjectImg>
-          <img src="images/starwars_SWAPI.png" alt="starwars_SWAPI" />
-        </ProjectImg>
     </Project>
       <Project>
+        <ProjectImg>
+          <img src="images/kyh_page.png" alt="KYH landing page" />
+        </ProjectImg>
         <Content>
           <ProjectTitle>KYH Course Landing Page Redesign</ProjectTitle>
           <Description>
@@ -56,11 +59,11 @@ function Work() {
             Link to site &#10132;
           </Button>
         </Content>
-        <ProjectImg>
-          <img src="images/kyh_page.png" alt="KYH landing page" />
-        </ProjectImg>
       </Project>
       <Project>
+        <ProjectImg>
+          <img src="images/tp_easyweb.png" alt="Easyweb site" />
+        </ProjectImg>
         <Content>
           <ProjectTitle>Easyweb by Sphinxly</ProjectTitle>
           <Description>
@@ -77,11 +80,11 @@ function Work() {
             Link to app &#10132;
           </Button>
         </Content>
-        <ProjectImg>
-          <img src="images/tp_easyweb.png" alt="Easyweb site" />
-        </ProjectImg>
       </Project>
       <Project>
+         <ProjectImg>
+          <img src="images/weather_app.png" alt="Weather app" />
+        </ProjectImg>
         <Content>
           <ProjectTitle>Weather App</ProjectTitle>
           <Description>A simple weather application.</Description>
@@ -93,11 +96,11 @@ function Work() {
             Link to GitHub &#10132;
           </Button>
         </Content>
-        <ProjectImg>
-          <img src="images/weather_app.png" alt="Weather app" />
-        </ProjectImg>
       </Project>
       <Project>
+        <ProjectImg>
+          <img src="images/tp_nutrition.png" alt="Nutrition app" />
+        </ProjectImg>
         <Content>
           <ProjectTitle>B-E-V Nutrition tracker</ProjectTitle>
           <Description>
@@ -109,11 +112,11 @@ function Work() {
             Link to GitHub &#10132;
           </Button>
         </Content>
-        <ProjectImg>
-          <img src="images/tp_nutrition.png" alt="Nutrition app" />
-        </ProjectImg>
       </Project>
       <Project>
+        <ProjectImg>
+          <img src="images/tp_note.png" alt="Note app" />
+        </ProjectImg>
         <Content>
           <ProjectTitle>Quire Note Taking App</ProjectTitle>
           <Description>
@@ -127,12 +130,11 @@ function Work() {
             Link to GitHub &#10132;
           </Button>
         </Content>
-        <ProjectImg>
-          <img src="images/tp_note.png" alt="Note app" />
-        </ProjectImg>
       </Project>
       <Project>
-
+        <ProjectImg>
+          <img src="images/EuBike.png" alt="EU-bikes prototype" />
+        </ProjectImg>
         <Content>
           <ProjectTitle>UX Review for EU-Bikes</ProjectTitle>
           <Description>
@@ -148,9 +150,6 @@ function Work() {
             Link to prototype &#10132;
           </Button>
         </Content>
-        <ProjectImg>
-          <img src="images/EuBike.png" alt="EU-bikes prototype" />
-        </ProjectImg>
       </Project>
    </WorkWrapper>
   );
