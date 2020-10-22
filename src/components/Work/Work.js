@@ -22,7 +22,7 @@ function Work() {
           <Description>
              An online soup shop where users can order and pay for the soup to get it delivered at home
           </Description>
-          <Tools>React hooks, styled components, firebase authentication, gmail signin </Tools>
+          <Tools>React hooks, styled components, firebase authentication, gmail signin, UX methodology- user storymapping, wireframing, user testing, mobile first approach </Tools>
 
           <Button
             href="https://github.com/MuhammadUsmanMushtaq/soup-online" target="_blank"
@@ -104,7 +104,7 @@ function Work() {
         </ProjectImg>
         <Content>
           <ProjectTitle>Weather App</ProjectTitle>
-          <Description>A simple weather applicatio.</Description>
+          <Description>A simple weather application</Description>
           <Tools>HTML5, CSS, Vanilla JavaScript</Tools>
           <Button
             href="https://github.com/MuhammadUsmanMushtaq/weatherapp"
@@ -158,7 +158,7 @@ function Work() {
             the EU bike service and to recommend improvements to satisfy both
             the user goals and the business goals
           </Description>
-          <Tools>Figma, Photoshop </Tools>
+          <Tools>User research, User story mapping, user testing, wireframing with Figma and Photoshop </Tools>
           <Button
             href="https://www.figma.com/proto/k60XBI2Tr0mefJXT2Q60jw/EU-BIKE?node-id=1%3A2&viewport=444%2C412%2C0.5&scaling=scale-down"
             target="_blank"
