@@ -1,6 +1,6 @@
 import React from "react";
-import { Menu, Logo, Links } from "./NavbarStyled";
-import { Link } from 'react-scroll';
+import { Menu, Logo } from "./NavbarStyled";
+
 
 function Navbar() {
   return (
