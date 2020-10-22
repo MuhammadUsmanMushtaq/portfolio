@@ -1,12 +1,24 @@
 import React from "react";
-import { Menu, Link } from "./NavbarStyled";
+import { Menu, Logo, Links } from "./NavbarStyled";
+import { Link } from 'react-scroll';
 
 function Navbar() {
   return (
     <Menu>
-      <Link href="Home">Home</Link>
-      <Link href="Work">Work</Link>
-      <Link href="Contact">Contact</Link>
+      <Logo>
+      <img src="images/logo.png" alt="KYH landing page" />
+      </Logo>
+      {/* <Links>
+        <Link activeClass="active" to="Home" spy={true} smooth={true} duration={1000}>
+          Home
+        </Link>
+        <Link activeClass="active" to="Skills" spy={true} smooth={true} duration={1000}>
+          Skills
+        </Link>
+        <Link activeClass="active" to="Work" spy={true} smooth={true} duration={1000}>
+          Work
+        </Link>
+        </Links> */}
     </Menu>
   );
 }

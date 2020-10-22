@@ -1,25 +1,31 @@
 import React from "react";
-import { PersonalInfoWrapper, Title, Image, Link } from "./PersonalInfoStyled";
+import { PersonalInfoWrapper, Title, Image, LinkContact, MyWork } from "./PersonalInfoStyled";
+import { Link } from 'react-scroll';
 
 function PersonalInfo() {
   return (
-    <PersonalInfoWrapper>
+    <PersonalInfoWrapper id="Home">
       <Image>
         <img src="/images/profile_rnd.png" alt="Profile" />
       </Image>
       <Title>Hi, I am Muhammad Usman, a frontend developer with a passion for UX and clean code</Title>
-      <Link
+      <LinkContact
         href="https://www.linkedin.com/in/muhammad-usman-78491149/"
         target="_blank"
       >
         LinkedIn
-      </Link>
-      <Link href="https://github.com/MuhammadUsmanMushtaq" target="_blank">
+      </LinkContact>
+      <LinkContact href="https://github.com/MuhammadUsmanMushtaq" target="_blank">
         GitHub
-      </Link>
-      <Link href="mailto: usman820901@gmail.com" target="_blank">
+      </LinkContact>
+      <LinkContact href="mailto: usman820901@gmail.com" target="_blank">
         Email
-      </Link>
+      </LinkContact>
+      <MyWork>
+        <Link activeClass="active" to="Work" spy={true} smooth={true} duration={1000}>
+          My work
+        </Link>
+      </MyWork>
     </PersonalInfoWrapper>
   );
 }

@@ -12,7 +12,7 @@ import {
 
 function Work() {
   return (
-    <WorkWrapper>
+    <WorkWrapper id="Work">
       <Project>
         <ProjectImg>
           <img src="images/starwars_swapi2.png" alt="starwars_SWAPI" />

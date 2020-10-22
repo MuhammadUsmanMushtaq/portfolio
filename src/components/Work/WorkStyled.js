@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const WorkWrapper = styled.div`
-  padding: 16px 0;
+  padding: 84px 0;
   display:flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -16,6 +16,7 @@ export const Project = styled.div`
   margin: 32px;
   background: #edf5fc;
   padding: 24px;
+  font-size: 18px;
   border-radius: 16px;
   &:hover img {
     transform: scale(1.04, 1.04);
@@ -34,7 +35,7 @@ export const Button = styled.a`
   margin-bottom: 8px;
   display: block;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 18px;
   color: #000;
   text-decoration: none;
   transition: all 0.25s ease-in-out;
@@ -72,11 +73,11 @@ export const ProjectImg = styled.div`
 `;
 
 export const Description = styled.p`
-  font-size: 14px;
+  font-size: 18px;
   margin: 0;
 `;
 
 export const Tools = styled.p`
-  font-size: 12px;
+  font-size: 18px;
   font-style: italic;
 `;
