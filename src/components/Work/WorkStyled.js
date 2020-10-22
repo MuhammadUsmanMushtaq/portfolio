@@ -11,10 +11,9 @@ export const WorkWrapper = styled.div`
 `;
 
 export const Project = styled.div`
-
   width:400px;
   margin: 32px;
-  background: #edf5fc;
+  background: #ebf6ff;
   padding: 24px;
   font-size: 18px;
   border-radius: 16px;

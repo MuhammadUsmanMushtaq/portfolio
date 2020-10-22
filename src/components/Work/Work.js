@@ -15,14 +15,32 @@ function Work() {
     <WorkWrapper id="Work">
       <Project>
         <ProjectImg>
+          <img src="images/soup.png" alt="SoupOnline" />
+        </ProjectImg>
+        <Content>
+          <ProjectTitle>Online Soup Shop</ProjectTitle>
+          <Description>
+             An online soup shop where users can order and pay for the soup to get it delivered at home
+          </Description>
+          <Tools>React hooks, styled components, firebase authentication, gmail signin </Tools>
+
+          <Button
+            href="https://github.com/MuhammadUsmanMushtaq/soup-online" target="_blank"
+          >
+            Link to GitHub &#10132;
+          </Button>
+        </Content>
+      </Project>
+      <Project>
+        <ProjectImg>
           <img src="images/starwars_swapi2.png" alt="starwars_SWAPI" />
         </ProjectImg>
         <Content>
           <ProjectTitle>Starwars character search</ProjectTitle>
           <Description>
-           This project is about searching star wars characters using SWAPI API.
+            A star war characters information search app and it uses SWAPI API
           </Description>
-          <Tools>React, styled components  </Tools>
+          <Tools>React hooks, styled components  </Tools>
 
           <Button
             href="https://github.com/MuhammadUsmanMushtaq/starWars-SWAPI" target="_blank"
@@ -35,7 +53,7 @@ function Work() {
             Link to app &#10132;
           </Button>
         </Content>
-    </Project>
+      </Project>
       <Project>
         <ProjectImg>
           <img src="images/kyh_page.png" alt="KYH landing page" />
@@ -43,8 +61,7 @@ function Work() {
         <Content>
           <ProjectTitle>KYH Course Landing Page Redesign</ProjectTitle>
           <Description>
-            School project to redesign the landing page of Front-end program at
-            KYH.
+            Redesign of the frontend program page of KYH
           </Description>
           <Tools>HTML5, CSS, Vanilla JavaScript</Tools>
           <Button
@@ -67,7 +84,7 @@ function Work() {
         <Content>
           <ProjectTitle>Easyweb by Sphinxly</ProjectTitle>
           <Description>
-            A school team project for Easyweb by Sphinxly.
+            Redesign suggestion for Easyweb by Sphinxly
           </Description>
           <Tools>Next.js, styled components</Tools>
           <Button
@@ -82,12 +99,12 @@ function Work() {
         </Content>
       </Project>
       <Project>
-         <ProjectImg>
+        <ProjectImg>
           <img src="images/weather_app.png" alt="Weather app" />
         </ProjectImg>
         <Content>
           <ProjectTitle>Weather App</ProjectTitle>
-          <Description>A simple weather application.</Description>
+          <Description>A simple weather applicatio.</Description>
           <Tools>HTML5, CSS, Vanilla JavaScript</Tools>
           <Button
             href="https://github.com/MuhammadUsmanMushtaq/weatherapp"
@@ -104,10 +121,9 @@ function Work() {
         <Content>
           <ProjectTitle>B-E-V Nutrition tracker</ProjectTitle>
           <Description>
-            School team project to create a nutrition tracker application using
-            data from an external API.
+            Nutrition tracker application using data from an external API
           </Description>
-          <Tools>React, styled componenets, chart.js </Tools>
+          <Tools>React, styled componenets, chart.js, firebase authentication </Tools>
           <Button href="https://github.com/AD757/fe19tp2_lemon" target="_blank">
             Link to GitHub &#10132;
           </Button>
@@ -120,9 +136,9 @@ function Work() {
         <Content>
           <ProjectTitle>Quire Note Taking App</ProjectTitle>
           <Description>
-            School team project to create a note taking application.
+            A note taking web application to easily add, delete, star and manage notes
           </Description>
-          <Tools>HTML5, CSS, Vanilla JavaScript </Tools>
+          <Tools>HTML5, CSS, Vanilla JavaScript, Local storage </Tools>
           <Button
             href="https://github.com/AD757/fe19tp1_TeamStaple"
             target="_blank"
@@ -138,9 +154,9 @@ function Work() {
         <Content>
           <ProjectTitle>UX Review for EU-Bikes</ProjectTitle>
           <Description>
-            The main aim of this project is to analyze the user experience of
+            The main aim of this project was to analyze the user experience of
             the EU bike service and to recommend improvements to satisfy both
-            the user goals and the business goals.
+            the user goals and the business goals
           </Description>
           <Tools>Figma, Photoshop </Tools>
           <Button
@@ -151,7 +167,7 @@ function Work() {
           </Button>
         </Content>
       </Project>
-   </WorkWrapper>
+    </WorkWrapper>
   );
 }
 
