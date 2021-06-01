@@ -21,7 +21,7 @@ export const Project = styled.div`
     transform: scale(1.04, 1.04);
   }
   &:hover a {
-    color: #008bf8;
+    color: #100772;
   }
   @media screen and (max-width: 768px) {
     padding:16px;
@@ -77,6 +77,7 @@ export const Description = styled.p`
 `;
 
 export const Tools = styled.p`
-  font-size: 18px;
-  font-style: italic;
+  font-size: 16px;
+  color: #777;
+  // font-style: italic;
 `;

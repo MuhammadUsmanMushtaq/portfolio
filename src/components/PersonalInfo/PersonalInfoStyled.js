@@ -11,6 +11,7 @@ export const PersonalInfoWrapper = styled.div`
   }
 `;
 
+
 export const Title = styled.h1`
   margin: 8px auto;
   max-width: 500px;

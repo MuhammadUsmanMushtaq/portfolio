@@ -15,6 +15,64 @@ function Work() {
     <WorkWrapper id="Work">
       <Project>
         <ProjectImg>
+          <img src="images/waitcure.png" alt="waitcure" />
+        </ProjectImg>
+        <Content>
+          <ProjectTitle>WaitCure Prototype</ProjectTitle>
+          <Description>
+            WaitCure by CodeZyme is a web application to improve patient waiting times. Patients can reschedule, get earlier times or cancel their appointments through a simple UI. 
+          </Description>
+             <Tools>
+                User research, wireframing with Excalidraw and Prototyping with figma, React/typescript, Graphql, apollo-client.
+              </Tools>
+          <Button
+            href="https://www.figma.com/proto/ylTFLMybDSfNI8ccGbg0BX/Waitcure-Prototype?node-id=2%3A1&viewport=496%2C431%2C0.14515800774097443&scaling=scale-down&page-id=0%3A1"
+            target="_blank">
+            Link to prototype &#10132;
+          </Button>
+        </Content>
+      </Project>
+      
+      <Project>
+        <ProjectImg>
+          <img src="images/EuBike.png" alt="EU-bikes prototype" />
+        </ProjectImg>
+        <Content>
+          <ProjectTitle>UX Review for EU-Bikes</ProjectTitle>
+          <Description>
+             The main aim of this project was to analyze the user experience of
+            the EU bike service and to recommend improvements to satisfy both
+            the user goals and the business goals. 
+          </Description>
+             <Tools>
+                User research, User story mapping, user testing, wireframing with Figma and Photoshop 
+              </Tools>
+          <Button
+            href="https://www.figma.com/proto/k60XBI2Tr0mefJXT2Q60jw/EU-BIKE?node-id=1%3A2&viewport=444%2C412%2C0.5&scaling=scale-down"
+            target="_blank">
+            Link to prototype &#10132;
+          </Button>
+        </Content>
+      </Project>
+      
+      <Project>
+        <ProjectImg>
+          <img src="images/codezyme.png" alt="waitcure" />
+        </ProjectImg>
+        <Content>
+          <ProjectTitle>CodeZyme Landing Page</ProjectTitle>
+          <Description>
+              Design of the landing page for CodeZyme
+          </Description>
+             <Tools>
+                Webflow
+              </Tools>
+          
+        </Content>
+      </Project>
+
+      <Project>
+        <ProjectImg>
           <img src="images/soup.png" alt="SoupOnline" />
         </ProjectImg>
         <Content>
@@ -31,6 +89,7 @@ function Work() {
           </Button>
         </Content>
       </Project>
+      
       <Project>
         <ProjectImg>
           <img src="images/starwars_swapi2.png" alt="starwars_SWAPI" />
@@ -54,6 +113,7 @@ function Work() {
           </Button>
         </Content>
       </Project>
+      
       <Project>
         <ProjectImg>
           <img src="images/kyh_page.png" alt="KYH landing page" />
@@ -77,6 +137,7 @@ function Work() {
           </Button>
         </Content>
       </Project>
+      
       <Project>
         <ProjectImg>
           <img src="images/tp_easyweb.png" alt="Easyweb site" />
@@ -98,22 +159,7 @@ function Work() {
           </Button>
         </Content>
       </Project>
-      <Project>
-        <ProjectImg>
-          <img src="images/weather_app.png" alt="Weather app" />
-        </ProjectImg>
-        <Content>
-          <ProjectTitle>Weather App</ProjectTitle>
-          <Description>A simple weather application</Description>
-          <Tools>HTML5, CSS, Vanilla JavaScript</Tools>
-          <Button
-            href="https://github.com/MuhammadUsmanMushtaq/weatherapp"
-            target="_blank"
-          >
-            Link to GitHub &#10132;
-          </Button>
-        </Content>
-      </Project>
+      
       <Project>
         <ProjectImg>
           <img src="images/tp_nutrition.png" alt="Nutrition app" />
@@ -129,6 +175,7 @@ function Work() {
           </Button>
         </Content>
       </Project>
+      
       <Project>
         <ProjectImg>
           <img src="images/tp_note.png" alt="Note app" />
@@ -145,28 +192,13 @@ function Work() {
           >
             Link to GitHub &#10132;
           </Button>
+        <Button href="https://quire-notes.netlify.app/" target="_blank">
+            Link to app &#10132;
+          </Button>   
         </Content>
       </Project>
-      <Project>
-        <ProjectImg>
-          <img src="images/EuBike.png" alt="EU-bikes prototype" />
-        </ProjectImg>
-        <Content>
-          <ProjectTitle>UX Review for EU-Bikes</ProjectTitle>
-          <Description>
-            The main aim of this project was to analyze the user experience of
-            the EU bike service and to recommend improvements to satisfy both
-            the user goals and the business goals
-          </Description>
-          <Tools>User research, User story mapping, user testing, wireframing with Figma and Photoshop </Tools>
-          <Button
-            href="https://www.figma.com/proto/k60XBI2Tr0mefJXT2Q60jw/EU-BIKE?node-id=1%3A2&viewport=444%2C412%2C0.5&scaling=scale-down"
-            target="_blank"
-          >
-            Link to prototype &#10132;
-          </Button>
-        </Content>
-      </Project>
+
+      
     </WorkWrapper>
   );
 }

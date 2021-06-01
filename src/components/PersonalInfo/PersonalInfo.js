@@ -8,7 +8,7 @@ function PersonalInfo() {
       <Image>
         <img src="/images/profile_rnd.png" alt="Profile" />
       </Image>
-      <Title>Hi, I am Muhammad Usman, a frontend developer with a passion for UX and clean code</Title>
+      <Title>Hi, I am Muhammad Usman, frontend developer with a passion for solving design problems, visual design, UX and clean code</Title>
       <LinkContact
         href="https://www.linkedin.com/in/muhammad-usman-78491149/"
         target="_blank"
