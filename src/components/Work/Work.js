@@ -153,7 +153,7 @@ function Work() {
         </Content>
       </Project>
 
-      <Project>
+      {/* <Project>
         <ProjectImg>
           <img src="images/tp_nutrition.png" alt="Nutrition app" />
         </ProjectImg>
@@ -192,7 +192,7 @@ function Work() {
             Link to app &#10132;
           </Button>
         </Content>
-      </Project>
+      </Project> */}
     </WorkWrapper>
   );
 }
