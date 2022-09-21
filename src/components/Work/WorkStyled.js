@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const WorkTitle = styled.h2`
   text-align: center;
-  padding: 50px 0;
+  padding-top: 60px;
   font-size: 48px;
   margin: 0;
   @media screen and (max-width: 768px) {
@@ -11,7 +11,7 @@ export const WorkTitle = styled.h2`
   }
 `;
 export const WorkWrapper = styled.div`
-  padding: 84px 0;
+  padding: 60px 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -86,8 +86,13 @@ export const Description = styled.p`
   margin: 0;
 `;
 
-export const Tools = styled.p`
-  font-size: 16px;
+export const Tools = styled.div`
+  display: flex;
+  gap: 16px;
+  align-items: top;
+  font-size: 32px;
+  padding: 24px 0;
+  font-weight: 800;
   color: #777;
   // font-style: italic;
 `;

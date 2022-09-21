@@ -1,4 +1,15 @@
 import React from 'react';
+import { FaReact, FaFigma } from 'react-icons/fa';
+import { IoLogoHtml5, IoLogoCss3, IoLogoNodejs } from 'react-icons/io';
+import {
+  SiJavascript,
+  SiMiro,
+  SiTypescript,
+  SiGraphql,
+  SiMaterialui,
+  SiFirebase,
+} from 'react-icons/si';
+
 import {
   WorkTitle,
   WorkWrapper,
@@ -23,7 +34,13 @@ function Work() {
           <Content>
             <ProjectTitle>Movie search app</ProjectTitle>
             <Description>Movie search app uses omdb API.</Description>
-            <Tools>React, hooks, node, API</Tools>
+            <Tools>
+              <FaReact color='#61DBFB' />
+              <SiJavascript color='#e9d44d' />
+              <IoLogoHtml5 color='#cd5434' />
+              <IoLogoCss3 color='#369ad6' />
+              <IoLogoNodejs color='#68a063' />
+            </Tools>
             <Button
               href='https://github.com/MuhammadUsmanMushtaq/hackday-project'
               target='_blank'
@@ -45,8 +62,13 @@ function Work() {
               appointments through a simple UI.
             </Description>
             <Tools>
-              User research, wireframing with Excalidraw and Prototyping with
-              figma, React/typescript, Graphql, apollo-client.
+              <FaReact color='#61DBFB' />
+              <SiTypescript color='#007acc' />
+              <SiJavascript color='#e9d44d' />
+              <SiGraphql color='#e535ab' />
+              <SiMaterialui color='#0081cb' />
+              <FaFigma color='#000' />
+              <SiMiro color='#000' />
             </Tools>
             <Button
               href='https://www.figma.com/proto/ylTFLMybDSfNI8ccGbg0BX/Waitcure-Prototype?node-id=2%3A1&viewport=496%2C431%2C0.14515800774097443&scaling=scale-down&page-id=0%3A1'
@@ -66,7 +88,12 @@ function Work() {
             <Description>
               A star war characters information search app and it uses SWAPI API
             </Description>
-            <Tools>React hooks, styled components </Tools>
+            <Tools>
+              <FaReact color='#61DBFB' />
+              <SiJavascript color='#e9d44d' />
+              <IoLogoHtml5 color='#cd5434' />
+              <IoLogoCss3 color='#369ad6' />
+            </Tools>
 
             <Button
               href='https://github.com/MuhammadUsmanMushtaq/starWars-SWAPI'
@@ -94,8 +121,8 @@ function Work() {
               the user goals and the business goals.
             </Description>
             <Tools>
-              User research, User story mapping, user testing, wireframing with
-              Figma and Photoshop
+              <FaFigma color='#000' />
+              <SiMiro color='#000' />
             </Tools>
             <Button
               href='https://www.figma.com/proto/k60XBI2Tr0mefJXT2Q60jw/EU-BIKE?node-id=1%3A2&viewport=444%2C412%2C0.5&scaling=scale-down'
@@ -117,9 +144,13 @@ function Work() {
               get it delivered at home
             </Description>
             <Tools>
-              React hooks, styled components, firebase authentication, gmail
-              signin, UX methodology- user storymapping, wireframing, user
-              testing, mobile first approach{' '}
+              <FaReact color='#61DBFB' />
+              <SiJavascript color='#e9d44d' />
+              <IoLogoHtml5 color='#cd5434' />
+              <IoLogoCss3 color='#369ad6' />
+              <SiFirebase color='#f7c52b' />
+              <FaFigma color='#000' />
+              <SiMiro color='#000' />
             </Tools>
 
             <Button
@@ -140,7 +171,11 @@ function Work() {
             <Description>
               Redesign of the frontend program page of KYH
             </Description>
-            <Tools>HTML5, CSS, Vanilla JavaScript</Tools>
+            <Tools>
+              <SiJavascript color='#e9d44d' />
+              <IoLogoHtml5 color='#cd5434' />
+              <IoLogoCss3 color='#369ad6' />
+            </Tools>
             <Button
               href='https://github.com/MuhammadUsmanMushtaq/frontend_kyh_landing_page'
               target='_blank'
