@@ -1,17 +1,27 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
+export const WorkTitle = styled.h2`
+  text-align: center;
+  padding: 50px 0;
+  font-size: 48px;
+  margin: 0;
+  @media screen and (max-width: 768px) {
+    padding: 16px 0 8px 0;
+    font-size: 32px;
+  }
+`;
 export const WorkWrapper = styled.div`
   padding: 84px 0;
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
-   @media screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     padding: 8px;
   }
 `;
 
 export const Project = styled.div`
-  width:400px;
+  width: 400px;
   margin: 32px;
   background: #ebf6ff;
   padding: 24px;
@@ -24,9 +34,9 @@ export const Project = styled.div`
     color: #100772;
   }
   @media screen and (max-width: 768px) {
-    padding:16px;
-    width:100%;
-    margin:16px 0;
+    padding: 16px;
+    width: 100%;
+    margin: 16px 0;
   }
 `;
 
