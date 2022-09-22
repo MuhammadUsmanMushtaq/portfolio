@@ -1,5 +1,6 @@
 import React from 'react';
-import { Menu, Logo, Links, MenuItems } from './NavbarStyled';
+// import { Spiral as Hamburger } from 'hamburger-react';
+import { Menu, Logo } from './NavbarStyled';
 import { Link } from 'react-scroll';
 
 function Navbar() {
@@ -8,7 +9,8 @@ function Navbar() {
       <Logo>
         <img src='images/logo.png' alt='logo' />
       </Logo>
-      <Links>
+
+      {/* <Links>
         <Link
           activeClass='active'
           to='Home'
@@ -37,7 +39,8 @@ function Navbar() {
         >
           <MenuItems>Work</MenuItems>
         </Link>
-      </Links>
+      </Links> */}
+      {/* <Hamburger direction='right' color='#FFF' /> */}
     </Menu>
   );
 }

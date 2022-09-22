@@ -49,5 +49,8 @@ export const MyWork = styled.div`
     border: 1px solid #fff;
     border-radius: 8px;
     cursor: pointer;
+    // @media screen and (max-width: 640px) {
+    //   display: none;
+    // }
   }
 `;
